@@ -2,6 +2,14 @@
 
 Material de estudo sobre padrões de projeto GOF.
 
+### Padrões Estruturais
+
+| Padrões Estruturais                               | Intenção                                                                 |
+|---------------------------------------------------|--------------------------------------------------------------------------|
+| :electric_plug: [Adapter][#adapter] 	            | O padrão de projeto Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis  trabalhem juntas. |
+
+
+
 ### Padrões Comportamentais
 
 | Padrões Comportamentais                           | Intenção                                                                 |
@@ -11,6 +19,8 @@ Material de estudo sobre padrões de projeto GOF.
 | :eyes: [Observer][#observer] 	                    | O padrão de projeto Observer define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda seu estado, todos seus dependentes são notificados e atualizados automaticamente. |
 | :sun_behind_rain_cloud: [State][#state]           | O padrão de projeto State permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe. |
 
+
+[#adapter]: src/main/java/designpatterns/estruturais/adapter/
 
 [#strategy]: src/main/java/designpatterns/comportamentais/strategy/
 [#templatemethod]: src/main/java/designpatterns/comportamentais/templatemethod/
