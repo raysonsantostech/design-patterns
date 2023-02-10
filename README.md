@@ -7,6 +7,7 @@ Material de estudo sobre padrões de projeto GOF.
 | Padrões Estruturais                               | Intenção                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
 | :electric_plug: [Adapter][#adapter] 	            | O padrão de projeto Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis  trabalhem juntas. |
+| :ice_cream: [Decorator][#decorator] 	            | O padrão de projeto Decorator anexa responsabilidades individuais a um objeto dinamicamente. Os Decoradores fornecem uma alternativa flexível ao uso de subclasses para extensão de funcionalidades. |
 
 
 
@@ -21,6 +22,8 @@ Material de estudo sobre padrões de projeto GOF.
 
 
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
+[#decorator]: src/main/java/designpatterns/estruturais/decorator/
+
 
 [#strategy]: src/main/java/designpatterns/comportamentais/strategy/
 [#templatemethod]: src/main/java/designpatterns/comportamentais/templatemethod/
