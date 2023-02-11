@@ -8,6 +8,7 @@ Material de estudo sobre padrões de projeto GOF.
 |---------------------------------------------------|--------------------------------------------------------------------------|
 | :electric_plug: [Adapter][#adapter] 	            | O padrão de projeto Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis  trabalhem juntas. |
 | :ice_cream: [Decorator][#decorator] 	            | O padrão de projeto Decorator anexa responsabilidades individuais a um objeto dinamicamente. Os Decoradores fornecem uma alternativa flexível ao uso de subclasses para extensão de funcionalidades. |
+| :gift: [Facade][#facade] 	                  | O padrão de projeto Facade fornece uma interface unificada para um conjunto de interfaces em um subsistema. O Facade define uma internface de nível mais alto que facilita a utilização de um subsitema. |
 
 
 
@@ -23,6 +24,7 @@ Material de estudo sobre padrões de projeto GOF.
 
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
+[#facade]: src/main/java/designpatterns/estruturais/facade/
 
 
 [#strategy]: src/main/java/designpatterns/comportamentais/strategy/
