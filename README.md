@@ -2,6 +2,14 @@
 
 Material de estudo sobre padrões de projeto GOF.
 
+### Padrões Criacionais
+
+| Padrões Criacionais                               | Intenção                                                                 |
+|---------------------------------------------------|--------------------------------------------------------------------------|
+| :mount_fuji: [Factory Method][#factoryMethod] 	| O padrão de projeto Factory Method define uma interface para criar objetos, permitindo que as subclasses possam decidir qual classe instanciar, possibilitando que uma classe seja capaz de prorrogar a instanciação de uma classe para as subclasses. |
+
+
+
 ### Padrões Estruturais
 
 | Padrões Estruturais                               | Intenção                                                                 |
@@ -21,6 +29,7 @@ Material de estudo sobre padrões de projeto GOF.
 | :eyes: [Observer][#observer] 	                    | O padrão de projeto Observer define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda seu estado, todos seus dependentes são notificados e atualizados automaticamente. |
 | :sun_behind_rain_cloud: [State][#state]           | O padrão de projeto State permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe. |
 
+[#factoryMethod]: src/main/java/designpatterns/criacionais/factorymethod/
 
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
