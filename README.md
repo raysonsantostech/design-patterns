@@ -6,8 +6,10 @@ Material de estudo sobre padrões de projeto GOF.
 
 | Padrões Criacionais                               | Intenção                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
-| :mount_fuji: [Factory Method][#factoryMethod] 	| O padrão de projeto Factory Method define uma interface para criar objetos, permitindo que as subclasses possam decidir qual classe instanciar, possibilitando que uma classe seja capaz de prorrogar a instanciação de uma classe para as subclasses. |
-| :dna: [Abstract Factory][#abstractFactory] 	| O padrão de projeto Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. |
+| :mount_fuji: [Factory Method][#factoryMethod] 	  | O padrão de projeto Factory Method define uma interface para criar objetos, permitindo que as subclasses possam decidir qual classe instanciar, possibilitando que uma classe seja capaz de prorrogar a instanciação de uma classe para as subclasses. |
+| :dna: [Abstract Factory][#abstractFactory] 	      | O padrão de projeto Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. |
+| :construction_worker: [Builder][#builder]         | O padrão de projeto Builder separa a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção de um objeto possa criar diferente representações. |
+
 
 ### Padrões Estruturais
 
@@ -30,7 +32,7 @@ Material de estudo sobre padrões de projeto GOF.
 
 [#factoryMethod]: src/main/java/designpatterns/criacionais/factorymethod/
 [#abstractFactory]: src/main/java/designpatterns/criacionais/abstractfactory/
-
+[#builder]: src/main/java/designpatterns/criacionais/builder/
 
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
