@@ -29,7 +29,8 @@ Material de estudo sobre padrões de projeto GOF.
 | :pencil: [Template Method][#templatemethod] 	            | O padrão de projeto Template Method define o esqueleto de uma algoritmo dentro de um método, transferindo alguns de seus passos para subclasses. O Template Method permite que as subclasses definam certos passos de um algoritmo sem alterar a estrutura do mesmo. |
 | :eyes: [Observer][#observer] 	                            | O padrão de projeto Observer define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda seu estado, todos seus dependentes são notificados e atualizados automaticamente. |
 | :sun_behind_rain_cloud: [State][#state]                   | O padrão de projeto State permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe. |
-| :link: [Chain of Responsibility][#ChainofResponsibility]  | O padrão de projeto Chain of Responsibility evita o acoplamento do remetente de uma solicitação ao seu receptor, dando a mais de um objeto a oportunidade de tratar a solicitaçção. Ele encadeia os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate. |
+| :link: [Chain of Responsibility][#ChainofResponsibility]  | O padrão de projeto Chain of Responsibility evita o acoplamento do remetente de uma solicitação ao seu receptor, dando a mais de um objeto a oportunidade de tratar a solicitação. Ele encadeia os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate. |
+| :loop: [Iterator][#iterator]                              | O padrão de projeto Iterator fornece uma maneira de acessar, sequencialmente, os elementos de uma objeto agregado sem expor a sua representação subjacente. |
 
 
 [#factoryMethod]: src/main/java/designpatterns/criacionais/factorymethod/
@@ -46,3 +47,4 @@ Material de estudo sobre padrões de projeto GOF.
 [#observer]: src/main/java/designpatterns/comportamentais/observer/
 [#state]: src/main/java/designpatterns/comportamentais/state/
 [#ChainofResponsibility]: src/main/java/designpatterns/comportamentais/chainofresponsibility/
+[#iterator]: src/main/java/designpatterns/comportamentais/iterator/
