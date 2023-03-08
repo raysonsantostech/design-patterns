@@ -18,8 +18,15 @@ Material de estudo sobre padrões de projeto GOF.
 | :electric_plug: [Adapter][#adapter] 	                    | O padrão de projeto Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis  trabalhem juntas. |
 | :ice_cream: [Decorator][#decorator] 	                    | O padrão de projeto Decorator anexa responsabilidades individuais a um objeto dinamicamente. Os Decoradores fornecem uma alternativa flexível ao uso de subclasses para extensão de funcionalidades. |
 | :gift: [Facade][#facade] 	                                | O padrão de projeto Facade fornece uma interface unificada para um conjunto de interfaces em um subsistema. O Facade define uma internface de nível mais alto que facilita a utilização de um subsitema. |
-| :bridge_at_night: [Bridge][#bridge] 	                                | O padrão de projeto Bridge desacopla uma abstração de sua implementação, ou seja, permite dividir uma classe grande ou um conjunto de classes diretamente ligadas em duas hierarquias separadas, deste modo as duas hierarquias pode varias de forma independente. |
+| :bridge_at_night: [Bridge][#bridge] 	                    | O padrão de projeto Bridge desacopla uma abstração de sua implementação, ou seja, permite dividir uma classe grande ou um conjunto de classes diretamente ligadas em duas hierarquias separadas, deste modo as duas hierarquias pode varias de forma independente. |
+| :herb: [Composite][#composite] 	            | O padrão de projeto Composite permite a composição de objetos em estruturas de árvore para representar hierarquias parte-todo. Com esse padrão, os clientes podem tratar os objetos individuais ou composições de objetos de maneira transparente e uniforme. |
 
+
+
+O padrão composite permite a composição de objetos em estruturas de
+árvore para representar hierarquias parte-todo. Com esse padrão, os
+clientes podem tratar objetos individuais ou composições de objetos de
+maneira transparente e uniforme.
 
 
 ### Padrões Comportamentais
@@ -42,6 +49,7 @@ Material de estudo sobre padrões de projeto GOF.
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
 [#facade]: src/main/java/designpatterns/estruturais/facade/
 [#bridge]: src/main/java/designpatterns/estruturais/bridge/
+[#composite]: src/main/java/designpatterns/estruturais/composite/
 
 
 [#strategy]: src/main/java/designpatterns/comportamentais/strategy/
