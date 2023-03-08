@@ -36,6 +36,8 @@ Material de estudo sobre padrões de projeto GOF.
 | :loop: [Iterator][#iterator]                              | O padrão de projeto Iterator fornece uma maneira de acessar, sequencialmente, os elementos de uma objeto agregado sem expor a sua representação subjacente. |
 | :runner: [Visitor][#visitor]                              | O padrão de projeto Visitor representa uma operação a ser executada nos membros de uma estrutura de objetos. Ele permite definir uma nova operação sem mudar as classes dos membros sobre os quais opera. |
 | :floppy_disk: [Memento][#memento]                         | O padrão de projeto Memento permite capturar e externalizar um estado interno de um objeto sem violar o encapsulamento, deste modo, o objeto pode ser restaurado no futuro para este estado capturado. |
+| :bouquet: [Mediator][#mediator]                             | O padrão de projeto Mediator centraliza e encapsula a maneira como um conjunto de objetos interage. Este padrão de projeto promove o fraco acomplamento ao evitar que objetos se refiram uns aos outros de forma explícita e permite variar suas intenções independentemente. |
+
 
 
 [#factoryMethod]: src/main/java/designpatterns/criacionais/factorymethod/
@@ -58,3 +60,4 @@ Material de estudo sobre padrões de projeto GOF.
 [#iterator]: src/main/java/designpatterns/comportamentais/iterator/
 [#visitor]: src/main/java/designpatterns/comportamentais/visitor/
 [#memento]: src/main/java/designpatterns/comportamentais/memento/
+[#mediator]: src/main/java/designpatterns/comportamentais/mediator/
