@@ -4,20 +4,21 @@ Material de estudo sobre padrões de projeto GOF.
 
 ### Padrões Criacionais
 
-| Padrões Criacionais                               | Intenção                                                                 |
-|---------------------------------------------------|--------------------------------------------------------------------------|
-| :mount_fuji: [Factory Method][#factoryMethod] 	  | O padrão de projeto Factory Method define uma interface para criar objetos, permitindo que as subclasses possam decidir qual classe instanciar, possibilitando que uma classe seja capaz de prorrogar a instanciação de uma classe para as subclasses. |
-| :dna: [Abstract Factory][#abstractFactory] 	      | O padrão de projeto Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. |
-| :construction_worker: [Builder][#builder]         | O padrão de projeto Builder separa a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção de um objeto possa criar diferente representações. |
+| Padrões Criacionais                                       | Intenção                                                                 |
+|-----------------------------------------------------------|--------------------------------------------------------------------------|
+| :mount_fuji: [Factory Method][#factoryMethod] 	        | O padrão de projeto Factory Method define uma interface para criar objetos, permitindo que as subclasses possam decidir qual classe instanciar, possibilitando que uma classe seja capaz de prorrogar a instanciação de uma classe para as subclasses. |
+| :dna: [Abstract Factory][#abstractFactory] 	            | O padrão de projeto Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. |
+| :construction_worker: [Builder][#builder]                 | O padrão de projeto Builder separa a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção de um objeto possa criar diferente representações. |
 
 
 ### Padrões Estruturais
 
-| Padrões Estruturais                               | Intenção                                                                 |
-|---------------------------------------------------|--------------------------------------------------------------------------|
-| :electric_plug: [Adapter][#adapter] 	            | O padrão de projeto Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis  trabalhem juntas. |
-| :ice_cream: [Decorator][#decorator] 	            | O padrão de projeto Decorator anexa responsabilidades individuais a um objeto dinamicamente. Os Decoradores fornecem uma alternativa flexível ao uso de subclasses para extensão de funcionalidades. |
-| :gift: [Facade][#facade] 	                  | O padrão de projeto Facade fornece uma interface unificada para um conjunto de interfaces em um subsistema. O Facade define uma internface de nível mais alto que facilita a utilização de um subsitema. |
+| Padrões Estruturais                                       | Intenção                                                                 |
+|-----------------------------------------------------------|--------------------------------------------------------------------------|
+| :electric_plug: [Adapter][#adapter] 	                    | O padrão de projeto Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis  trabalhem juntas. |
+| :ice_cream: [Decorator][#decorator] 	                    | O padrão de projeto Decorator anexa responsabilidades individuais a um objeto dinamicamente. Os Decoradores fornecem uma alternativa flexível ao uso de subclasses para extensão de funcionalidades. |
+| :gift: [Facade][#facade] 	                                | O padrão de projeto Facade fornece uma interface unificada para um conjunto de interfaces em um subsistema. O Facade define uma internface de nível mais alto que facilita a utilização de um subsitema. |
+| :bridge_at_night: [Bridge][#bridge] 	                                | O padrão de projeto Bridge desacopla uma abstração de sua implementação, ou seja, permite dividir uma classe grande ou um conjunto de classes diretamente ligadas em duas hierarquias separadas, deste modo as duas hierarquias pode varias de forma independente. |
 
 
 
@@ -40,6 +41,7 @@ Material de estudo sobre padrões de projeto GOF.
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
 [#facade]: src/main/java/designpatterns/estruturais/facade/
+[#bridge]: src/main/java/designpatterns/estruturais/bridge/
 
 
 [#strategy]: src/main/java/designpatterns/comportamentais/strategy/
