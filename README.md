@@ -35,7 +35,7 @@ Material de estudo sobre padrões de projeto GOF.
 | :link: [Chain of Responsibility][#ChainofResponsibility]  | O padrão de projeto Chain of Responsibility evita o acoplamento do remetente de uma solicitação ao seu receptor, dando a mais de um objeto a oportunidade de tratar a solicitação. Ele encadeia os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate. |
 | :loop: [Iterator][#iterator]                              | O padrão de projeto Iterator fornece uma maneira de acessar, sequencialmente, os elementos de uma objeto agregado sem expor a sua representação subjacente. |
 | :runner: [Visitor][#visitor]                              | O padrão de projeto Visitor representa uma operação a ser executada nos membros de uma estrutura de objetos. Ele permite definir uma nova operação sem mudar as classes dos membros sobre os quais opera. |
-
+| :floppy_disk: [Memento][#memento]                         | O padrão de projeto Memento permite capturar e externalizar um estado interno de um objeto sem violar o encapsulamento, deste modo, o objeto pode ser restaurado no futuro para este estado capturado. |
 
 
 [#factoryMethod]: src/main/java/designpatterns/criacionais/factorymethod/
@@ -57,3 +57,4 @@ Material de estudo sobre padrões de projeto GOF.
 [#ChainofResponsibility]: src/main/java/designpatterns/comportamentais/chainofresponsibility/
 [#iterator]: src/main/java/designpatterns/comportamentais/iterator/
 [#visitor]: src/main/java/designpatterns/comportamentais/visitor/
+[#memento]: src/main/java/designpatterns/comportamentais/memento/
