@@ -10,8 +10,7 @@ Material de estudo sobre padrões de projeto GOF.
 | :dna: [Abstract Factory][#abstractFactory] 	            | O padrão de projeto Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. |
 | :construction_worker: [Builder][#builder]                 | O padrão de projeto Builder separa a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção de um objeto possa criar diferente representações. |
 | :ring: [Singleton][#singleton]                            | O padrão de projeto Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. |
-
-
+| :heavy_plus_sign: [Prototype][#prototype]                            | O padrão de projeto Prototype especifica tipos de objetos a serem criados usando como base uma instância de outro objeto. Deste modo, permite a clonagem de objetos existentes sem provocar dependência de suas classes. |
 
 
 
@@ -48,6 +47,7 @@ Material de estudo sobre padrões de projeto GOF.
 [#abstractFactory]: src/main/java/designpatterns/criacionais/abstractfactory/
 [#builder]: src/main/java/designpatterns/criacionais/builder/
 [#singleton]: src/main/java/designpatterns/criacionais/singleton/
+[#prototype]: src/main/java/designpatterns/criacionais/prototype/
 
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
