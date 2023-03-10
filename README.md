@@ -2,6 +2,7 @@
 
 Material de estudo sobre padrões de projeto GOF.
 
+
 ### Padrões Criacionais
 
 | Padrões Criacionais                                       | Intenção                                                                 |
@@ -10,7 +11,7 @@ Material de estudo sobre padrões de projeto GOF.
 | :dna: [Abstract Factory][#abstractFactory] 	            | O padrão de projeto Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. |
 | :construction_worker: [Builder][#builder]                 | O padrão de projeto Builder separa a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção de um objeto possa criar diferente representações. |
 | :ring: [Singleton][#singleton]                            | O padrão de projeto Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. |
-| :heavy_plus_sign: [Prototype][#prototype]                            | O padrão de projeto Prototype especifica tipos de objetos a serem criados usando como base uma instância de outro objeto. Deste modo, permite a clonagem de objetos existentes sem provocar dependência de suas classes. |
+| :heavy_plus_sign: [Prototype][#prototype]                 | O padrão de projeto Prototype especifica tipos de objetos a serem criados usando como base uma instância de outro objeto. Deste modo, permite a clonagem de objetos existentes sem provocar dependência de suas classes. |
 
 
 
@@ -24,6 +25,7 @@ Material de estudo sobre padrões de projeto GOF.
 | :bridge_at_night: [Bridge][#bridge] 	                    | O padrão de projeto Bridge desacopla uma abstração de sua implementação, ou seja, permite dividir uma classe grande ou um conjunto de classes diretamente ligadas em duas hierarquias separadas, deste modo as duas hierarquias pode varias de forma independente. |
 | :herb: [Composite][#composite]             	            | O padrão de projeto Composite permite a composição de objetos em estruturas de árvore para representar hierarquias parte-todo. Com esse padrão, os clientes podem tratar os objetos individuais ou composições de objetos de maneira transparente e uniforme. |
 | :credit_card: [Proxy][#proxy]             	            | O padrão de projeto Proxy fornece um substituto ou representante de outro objeto para gerenciar o acesso a ele. |
+| :flyweight: [Flyweight][#flyweight]             	        | O padrão de projeto Flyweight permite usar o compatilhamento para suportar grandes quantidades de objetos de granularidade fina. |
 
 
 
@@ -39,7 +41,7 @@ Material de estudo sobre padrões de projeto GOF.
 | :loop: [Iterator][#iterator]                              | O padrão de projeto Iterator fornece uma maneira de acessar, sequencialmente, os elementos de uma objeto agregado sem expor a sua representação subjacente. |
 | :runner: [Visitor][#visitor]                              | O padrão de projeto Visitor representa uma operação a ser executada nos membros de uma estrutura de objetos. Ele permite definir uma nova operação sem mudar as classes dos membros sobre os quais opera. |
 | :floppy_disk: [Memento][#memento]                         | O padrão de projeto Memento permite capturar e externalizar um estado interno de um objeto sem violar o encapsulamento, deste modo, o objeto pode ser restaurado no futuro para este estado capturado. |
-| :bouquet: [Mediator][#mediator]                             | O padrão de projeto Mediator centraliza e encapsula a maneira como um conjunto de objetos interage. Este padrão de projeto promove o fraco acomplamento ao evitar que objetos se refiram uns aos outros de forma explícita e permite variar suas intenções independentemente. |
+| :bouquet: [Mediator][#mediator]                           | O padrão de projeto Mediator centraliza e encapsula a maneira como um conjunto de objetos interage. Este padrão de projeto promove o fraco acomplamento ao evitar que objetos se refiram uns aos outros de forma explícita e permite variar suas intenções independentemente. |
 
 
 
@@ -49,12 +51,14 @@ Material de estudo sobre padrões de projeto GOF.
 [#singleton]: src/main/java/designpatterns/criacionais/singleton/
 [#prototype]: src/main/java/designpatterns/criacionais/prototype/
 
+
 [#adapter]: src/main/java/designpatterns/estruturais/adapter/
 [#decorator]: src/main/java/designpatterns/estruturais/decorator/
 [#facade]: src/main/java/designpatterns/estruturais/facade/
 [#bridge]: src/main/java/designpatterns/estruturais/bridge/
 [#composite]: src/main/java/designpatterns/estruturais/composite/
 [#proxy]: src/main/java/designpatterns/estruturais/proxy/
+[#flyweight]: src/main/java/designpatterns/estruturais/flyweight/
 
 
 [#strategy]: src/main/java/designpatterns/comportamentais/strategy/
@@ -66,3 +70,4 @@ Material de estudo sobre padrões de projeto GOF.
 [#visitor]: src/main/java/designpatterns/comportamentais/visitor/
 [#memento]: src/main/java/designpatterns/comportamentais/memento/
 [#mediator]: src/main/java/designpatterns/comportamentais/mediator/
+
